@@ -402,7 +402,8 @@ function divideAndConquer(arr, number) {
       return num;
     }
   }
-  return 'number not found';
+
+  return `${number} not found`;
 }
 
 console.log(divideAndConquer(arr, 3));
